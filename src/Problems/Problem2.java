@@ -14,8 +14,6 @@
 
 package Problems;
 
-import java.util.concurrent.TimeUnit;
-
 /* @author Ángel Sánchez */
 public class Problem2 {
     

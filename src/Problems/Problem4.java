@@ -18,11 +18,12 @@ public class Problem4 {
         int palindromos;
         int palindromoMayor = 0;
         
+        long startTime = System.nanoTime();
         for(int i = 999; i > 99; i--){
             for(int j = 999; j > 99; j--){
                 num = i * j;
                 if(isPalindrome(num)){
-                    System.out.println(i+"*"+j+"=" +num);
+                    //System.out.println(i+"*"+j+"=" +num);
                     palindromos = num;
                     if(palindromoMayor < palindromos){
                         palindromoMayor = palindromos;
@@ -30,7 +31,10 @@ public class Problem4 {
                 }
             }
         }
+        long endTime = System.nanoTime();
         System.out.println(palindromoMayor);
+        
+        System.out.println("Duracion: " + (endTime - startTime)/1e6 + " ms");
     }
     
     public static boolean isPalindrome(int num){
