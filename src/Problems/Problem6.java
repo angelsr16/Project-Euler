@@ -33,6 +33,6 @@ public class Problem6 {
         System.out.println(num2-num);
         
         long endTime = System.nanoTime();
-        System.out.println("Duracion: " + (endTime - startTime)/1e6 + " ms"); 
+        System.out.println("Duracion: " + (endTime - startTime)/1e6 + " ms");
     }
 }
