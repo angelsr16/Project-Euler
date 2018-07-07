@@ -10,7 +10,7 @@
 package Problems;
 
 /* @author Ángel Sánchez */
-public class Problem5 {
+public class Problem05 {
     
     public static void main(String[] args){
         int num = 21;

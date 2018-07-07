@@ -12,7 +12,7 @@
 package Problems;
 
 /* @author Ángel Sánchez */
-public class Problem1 {
+public class Problem01 {
     
     public static void main(String[] args){
         int suma = 0;

@@ -21,7 +21,7 @@
  */
 package Problems;
 /* @author Ángel Sánchez */
-public class Problem6 {
+public class Problem06 {
     public static void main(String[] args){
         long num = 100;
         long num2 = 100;

@@ -9,7 +9,7 @@
  */
 package Problems;
 /* @author Ángel Sánchez */
-public class Problem7 {
+public class Problem07 {
     public static void main(String[] args){
         int cont = 0;
         int prime = 0;
